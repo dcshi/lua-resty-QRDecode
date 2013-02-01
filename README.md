@@ -1,11 +1,13 @@
 lua-resty-QRDecode
-======================
+==================
 
-## Description
+Description
+===========
                                                                                                                                                   
 A QR decoder for ngx_lua, it works well on linux.
 
-###Examples:
+Examples
+========
 
     server {
       listen 80; 
@@ -28,21 +30,25 @@ A QR decoder for ngx_lua, it works well on linux.
    
 visit http://localhost/qr
     
-## Dependencies
+Dependencies
+============
 	lua-resty-QRDecode depends upon [zxing](http://code.google.com/p/zxing/) 
 	A installation tutorial on my [blog](http://www.dcshi.com/?p=193)
 
-##Installation
+Installation
+============
 	it also free installation, you may do as follow:
 	  1. copy lua-resty-QRDecode on your linux. for example, you save it on /opt/lua-resty-QRDecode
 	  2. if zxing is ok on you linux, that cd /opt/lua-resty-QRDecode/clib/; and make for libqrdecode.so (refer my blog mentioned [above](http://www.dcshi.com/?p=193))
 	  3. config [lua_package_path](http://wiki.nginx.org/HttpLuaModule#lua_package_cpath), [lua_package_cpath](http://wiki.nginx.org/HttpLuaModule#lua_package_cpath) in your nginx.
       4. that is ok. 
 
-##Author
+Author
+======
 	dcshi(施俊伟) <dcshi@qq.com>
 
-##Copyright and License
+Copyright and License
+=====================
 This module is licensed under the BSD license.
 Copyright (C) 2013, by dcshi(施俊伟). <dcshi@qq.com>
 All rights reserved.
@@ -61,5 +67,6 @@ OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITU
 OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-##See Also
+See Also
+========
 	A QR encoder for [ngx_lua](https://github.com/dcshi/lua-resty-QRcode)
