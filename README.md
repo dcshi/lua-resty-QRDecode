@@ -33,13 +33,13 @@ visit http://localhost/qr
 Dependencies
 ============
 lua-resty-QRDecode depends upon [zxing](http://code.google.com/p/zxing/) 
-A installation tutorial on my [blog](http://www.dcshi.com/?p=193)
+A installation tutorial on my [blog](http://www.dcshi.com/?p=242)
 
 Installation
 ============
 it also free installation, you may do as follow:
   1. copy lua-resty-QRDecode on your linux. for example, you save it on /opt/lua-resty-QRDecode
-  2. if zxing is ok on you linux, that cd /opt/lua-resty-QRDecode/clib/; and make for libqrdecode.so (refer my blog mentioned [above](http://www.dcshi.com/?p=193))
+  2. if zxing is ok on you linux, that cd /opt/lua-resty-QRDecode/clib/; and make for libqrdecode.so (refer my blog mentioned [above](http://www.dcshi.com/?p=242))
   3. config [lua_package_path](http://wiki.nginx.org/HttpLuaModule#lua_package_cpath), [lua_package_cpath](http://wiki.nginx.org/HttpLuaModule#lua_package_cpath) in your nginx.
   4. that is ok. 
 
